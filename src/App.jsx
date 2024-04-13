@@ -61,7 +61,7 @@ function App() {
     <>
       <h1>Tesseract 图片解析文字</h1>
 
-      <code>所有图片</code>
+      <h2>所有图片</h2>
 
       {allImgs?.map((img) => {
         return (
@@ -79,7 +79,7 @@ function App() {
         onSearch={search}
       />
       <div>
-        <code>图片搜索结果</code>
+        <h2>图片搜索结果</h2>
         {searchImgs?.map((img) => {
           return (
             <img
