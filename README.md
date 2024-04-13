@@ -1,8 +1,8 @@
 # React + Vite
+## 根据输入的文字 返回 包含该文字的图像
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+使用了``tesseract.js`` 做OCR识别，并记录识别结果
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+做这个demo其实并没有什么实际意义,单纯的无意间看到了基于 JavaScript的PCR库
+> 有意思本身比有意义更有意义！
